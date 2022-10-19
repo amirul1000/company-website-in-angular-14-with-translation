@@ -1,0 +1,61 @@
+{
+    "demo": {
+        "lorem": "Text",
+        "lorem-2": "Demo text",
+        "lorem-3": "Example demo text",    
+        "lorem-10": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, fuga!",
+        "lorem-20": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident cumque at voluptate inventore quis! Exercitationem dignissimos asperiores dolores quod minima?",
+        "lorem-30": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque mattis eros ut justo vehicula interdum. Cras a elit sed nisi hendrerit placerat. Duis euismod vehicula enim non placerat. Nulla quis.",
+        "lorem-40": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mattis ante vel sem porttitor bibendum. Nullam gravida magna ut commodo pulvinar. Duis elementum et arcu et ultricies. Aenean vitae tellus vitae dolor finibus tristique. Morbi erat ligula, cursus eu felis.",
+        "lorem-50": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae quam id diam posuere fringilla id id nibh. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse non magna dui. Donec eget porttitor lacus. Praesent aliquet eu ligula vitae posuere. Ut ornare finibus erat. Nunc nec fringilla quam.",
+        "lorem-60": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque lobortis lorem orci, non auctor eros gravida vitae. Nullam efficitur euismod elit, nec aliquam quam porttitor a. Fusce eget auctor odio, ac efficitur orci. Donec dictum, orci eget finibus elementum, lorem dui mollis magna, id lobortis purus arcu ac sapien. Nulla bibendum dignissim libero mollis porttitor. Curabitur tincidunt magna at tortor.",
+        "lorem-70": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget tempus sem. Maecenas ornare, lorem eget maximus aliquet, felis nulla tempus urna, ac accumsan diam lectus sed felis. Duis porta nulla scelerisque justo efficitur egestas. Cras viverra dapibus consequat. Sed ultrices, eros sed mollis ornare, arcu diam dapibus nisi, sit amet lacinia elit nulla vitae nisl. Sed id felis in nunc ullamcorper vestibulum at sit amet tellus. In placerat nunc.",
+        "lorem-80": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse lobortis dapibus ipsum, sit amet eleifend lacus vestibulum id. Suspendisse rutrum aliquam magna eget lobortis. Aenean vel ante imperdiet, malesuada neque et, lobortis orci. Sed feugiat turpis nec metus pretium mollis. Integer elit enim, blandit eu quam vitae, accumsan viverra nisl. Integer fermentum eu velit eget tincidunt. Suspendisse nulla quam, facilisis non aliquet quis, elementum ut libero. Nulla vel eros pulvinar, consequat sapien id, tempus turpis. Curabitur leo mi, pretium nec.",
+        "lorem-90": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae urna nibh. Praesent non mauris ornare, varius neque in, tincidunt dolor. Sed semper dui fermentum ex posuere fringilla. Donec rhoncus pretium eros, et mollis turpis suscipit non. Quisque consectetur risus et sollicitudin rhoncus. Proin venenatis velit quam, eget eleifend mauris laoreet at. Proin vitae pretium augue. Ut dignissim elit mi, sed fringilla elit varius in. Vivamus orci neque, posuere vel tortor eu, hendrerit maximus massa. Ut placerat turpis est, eget luctus nunc bibendum non. Vivamus nec nisl scelerisque, aliquet sem.",
+        "lorem-100": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tincidunt eget mi sit amet ultrices. Quisque metus risus, sagittis et feugiat a, tincidunt a justo. Vestibulum nibh est, varius sit amet est quis, facilisis consequat est. Ut ullamcorper, massa in fermentum bibendum, magna sem mollis turpis, a suscipit urna urna in erat. Duis elementum ac ligula nec porttitor. Pellentesque sit amet pulvinar lacus. Integer sit amet ex volutpat, efficitur nibh nec, dictum mi. Curabitur at risus eget enim finibus vestibulum. Nam ac faucibus odio. Etiam ac aliquam sapien. Nunc placerat, eros nec imperdiet ornare, nisi dolor ullamcorper nibh, non mattis."
+    },
+    "buttons": {
+        "learn_more": "Learn More",
+        "send": "Send",
+        "close": "Close",
+        "show": "Show",
+        "hide": "Hide",
+        "open": "Open"
+    },
+    "status": {
+        "available": "Available",
+        "unavailable": "Unavailable"
+    },
+    "titles": {
+        "news_and_updates": "News and Updates",
+        "contact_us": "Contact Us",
+        "follow_us": "Follow Us",
+        "complaint_box": "Complaint Box",
+        "useful_links": "Useful Links",
+        "exchange_rates": "Exchange Rates",
+        "exchange_rates_for_the_day": "Exchange rates for the day",
+        "purchase": "Purchase",
+        "sale": "Sale",
+        "lyd":"LYD",
+        "board_of_directors": "Board of Directors",
+        "categories": "Categories"
+    },
+    "nav": {
+        "home": "Home",
+        "about_us": "About Us",
+        "services": "Services",
+        "atm": "ATM",
+        "faq": "FaQs",
+        "contact_us": "Contact Us",
+        "terms_and_condition": "Terms and Condition",
+        "privacy_policy": "Privacy Policy",
+        "media":"Media",
+        "album": "Album",
+        "gallery": "Gallery",
+        "news": "News",
+        "video": "Video",
+        "blog": "Blog",
+        "branches":"Branches"
+       
+    }
+}

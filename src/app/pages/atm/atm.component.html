@@ -1,0 +1,65 @@
+<main>
+  <section
+    class="sec-page-title"
+    style="background-image: url(assets/img/hero-slider-img-1.jpg)"
+  >
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="title text-left">
+            <h2>{{'nav.atm' | translate}}</h2>
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb bg-transparent p-0">
+                <li class="breadcrumb-item">
+                  <a class="text-light" routerLink="/">{{'nav.home' | translate}}</a>
+                </li>
+                <li class="breadcrumb-item active font-weight-bold text-white">
+                  {{'nav.atm' | translate}}
+                </li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="bg-gray">
+    <div class="container py-5">
+      <div class="sec-title text-center">
+        <p class="mx-auto">
+          {{'demo.lorem-10' | translate}}
+        </p>
+      </div>
+      <div class="card hover-shadow">
+        <div class="card-body p-2">
+          <div class="row">
+            <div class="col-12">
+              <app-map></app-map>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <span class="text-success"
+            ><img
+              width="40"
+              src="assets/img/atm-online.png"
+              alt="Online"
+              srcset=""
+            />
+            {{'status.available' | translate}}</span
+          >
+          <span class="text-muted"
+            ><img
+              class="ml-3"
+              width="40"
+              src="assets/img/atm-offline.png"
+              alt="Currenty Offline"
+              srcset=""
+            />
+            {{'status.unavailable' | translate}}</span
+          >
+        </div>
+      </div>
+    </div>
+  </section>
+</main>

@@ -1,0 +1,13 @@
+<div class="languageDropdown mr-3">
+  <div class="field">
+    <div class="dropdown">
+      <button class="btn btn-sm btn-outline-success dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        {{language?.title}}
+      </button>
+      <div class="dropdown-menu mt-2">
+        <button class="dropdown-item py-2 px-3" (click)="changeLanguage('ar')">العربية</button>
+        <button class="dropdown-item py-2 px-3" (click)="changeLanguage('en')">English</button>
+      </div>
+    </div>
+  </div>
+</div>

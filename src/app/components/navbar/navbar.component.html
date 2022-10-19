@@ -1,0 +1,332 @@
+<!-- header component -->
+<header class="header shadow-sm">
+    <div class="row">
+      <div class="col-sm-12 d-flex align-items-center">
+        <div class="logo">
+          <a routerLink="/">
+            <img src="assets/img/logo.png" alt="" />
+          </a>
+        </div>
+        <div class="nav-menus">
+          <div class="nav-menu-links">
+            <div class="closeIcn">
+              <span></span>
+            </div>
+            <ul class="d-flex align-items-center menus-main mb-0">
+              <li [routerLinkActive]="'active'" [routerLinkActiveOptions]="{exact: true}">
+                <a routerLink="/"
+                  >{{"nav.home" | translate}}</a
+                >
+              </li>
+              <li [routerLinkActive]="'active'">
+                <a routerLink="/about">
+                  {{"nav.about_us" | translate}}
+                </a>
+              </li>
+              <li class="nav-item dropdown" [routerLinkActive]="'active'">
+                <div class="dropdown">
+                  <a class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    {{"nav.services" | translate}}
+                  </a>
+                  <div class="dropdown-menu mt-2">
+                    <button class="dropdown-item py-2 px-3" routerLink="/services/1">{{"demo.lorem" | translate}}1</button>
+                    <button class="dropdown-item py-2 px-3" routerLink="/services/2">{{"demo.lorem" | translate}} 2</button>
+                    <button class="dropdown-item py-2 px-3" routerLink="/services/3">{{"demo.lorem" | translate}} 3</button>
+                    <button class="dropdown-item py-2 px-3" routerLink="/services/4">{{"demo.lorem" | translate}} 4</button>
+                  </div>
+                </div>                
+              </li>    
+              <li class="nav-item dropdown" [routerLinkActive]="'active'">
+                <div class="dropdown">
+                  <a class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    {{"nav.media" | translate}}
+                  </a>
+                  <div class="dropdown-menu mt-2">
+                    <button class="dropdown-item py-2 px-3" routerLink="/gallery">{{"nav.gallery" | translate}} </button>
+                    <button class="dropdown-item py-2 px-3" routerLink="/videos">{{"nav.video" | translate}} </button>
+                  </div>
+                </div>                
+              </li>    
+
+              <li [routerLinkActive]="'active'">
+                <a routerLink="/atm">
+                  {{"nav.atm" | translate}}
+                </a>
+              </li>
+              <li [routerLinkActive]="'active'">
+                <a routerLink="news">
+                  {{"nav.news" | translate}}
+                </a>
+              </li>
+              <!-- <li [routerLinkActive]="'active'">
+                <a class="nav-link dropdown-toggle navbar-dropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Media
+                </a>
+                <div class="dropdown-menu navbar-dropdown-menu" aria-labelledby="navbarDropdown">
+                  <div class="triangle-top"></div>
+
+                  <a class="dropdown-item" routerLink="gallery">Gallery</a>
+                  <a class="dropdown-item" routerLink="videos">Video</a>
+
+                </div>
+              </li>               -->
+              <li [routerLinkActive]="'active'">
+                <a routerLink="faqs">
+                  {{"nav.faq" | translate}}
+                </a>
+              </li>
+              <li [routerLinkActive]="'active'">
+                <a routerLink="contact">
+                  {{"nav.contact_us" | translate}}
+                </a>
+              </li>
+            </ul>
+          </div>
+  
+  
+          <div class="topnav-right d-flex align-items-center ml-auto">
+            <app-language-selector></app-language-selector>
+            <div class="sec-countryDropdown">
+              <div class="field">
+                <div class="btn-group">
+                  <span
+                    type="button"
+                    class="country-name dropdown-toggle btn-outline-success"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="fase"
+                  >
+                    <i class="fas fa-globe-americas"></i>
+                  </span>
+                  <div class="dropdown-menu dropdown-menu-right mt-2">
+                    <div class="row">
+                      <div class="col-md-4">
+                        <div class="colum-widget">
+                          <h2>Arab Bank PLC</h2>
+                          <div class="colum-listing">
+                            <ul>
+                              <li>
+                                <a
+                                  routerLink="branches/1"
+                                  >Jordan</a
+                                >
+                              </li>
+                              <li>
+                                <a
+                                  routerLink="branches/2"
+                                  >Palestine</a
+                                >
+                              </li>
+                              <li>
+                                <a
+                                  routerLink="branches/3"
+                                  >Egypt</a
+                                >
+                              </li>
+                              <li>
+                                <a
+                                  routerLink="branches/4"
+                                  >Lebanon</a
+                                >
+                              </li>
+                              <li>
+                                <a
+                                  routerLink="branches/5"
+                                  >UAE</a
+                                >
+                              </li>
+                              <li>
+                                <a
+                                  routerLink="branches/6"
+                                  >Qatar</a
+                                >
+                              </li>
+                              <li>
+                                <a
+                                  routerLink="branches/7"
+                                  >Bahrain</a
+                                >
+                              </li>
+                              <li>
+                                <a
+                                  routerLink="branches/8"
+                                  >Yemen</a
+                                >
+                              </li>
+                              <li>
+                                <a
+                                  routerLink="branches/9"
+                                  >Morocco</a
+                                >
+                              </li>
+                              <li>
+                                <a
+                                  routerLink="branches/10"
+                                  >Algeria</a
+                                >
+                              </li>
+                              <li>
+                                <a
+                                  routerLink="branches/11"
+                                  >China</a
+                                >
+                              </li>
+                              <li>
+                                <a
+                                  routerLink="branches/12"
+                                  >South Korea (Representative Office)</a
+                                >
+                              </li>
+                              <li>
+                                <a
+                                  routerLink="branches/13"
+                                  >USA (New York Agency)</a
+                                >
+                              </li>
+                              <li>
+                                <a
+                                  routerLink="branches/14"
+                                  >Kazakhstan (Representative Office)</a
+                                >
+                              </li>
+                              <li>
+                                <a
+                                  routerLink="branches/15"
+                                  >Singapore</a
+                                >
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="colum-widget">
+                          <h2>Subsidiaries</h2>
+                          <div class="colum-listing">
+                            <ul>
+                              <li>
+                                <a
+                                  routerLink="branches/16"
+                                  >Europe Arab Bank plc
+                                </a>
+                              </li>
+                              <li>
+                                <a
+                                  routerLink="/branches/17"
+                                  >Arab Bank Australia Limited
+                                </a>
+                              </li>
+                              <li>
+                                <a
+                                  routerLink="/branches/18"
+                                  >Islamic international Arab Bank plc
+                                </a>
+                              </li>
+                              <li>
+                                <a
+                                  routerLink="/branches/19"
+                                  >Arab National Leasing Company
+                                </a>
+                              </li>
+                              <li>
+                                <a
+                                  routerLink="/branches/20"
+                                  >Al - Arabi Investment Group Co. (AB Invest)
+                                </a>
+                              </li>
+                              <li>
+                                <a
+                                  routerLink="/branches/21"
+                                  >Arab Sudanese Bank Limited
+                                </a>
+                              </li>
+                              <li>
+                                <a
+                                  routerLink="/branches/22"
+                                  >Arab Tunisian Bank
+                                </a>
+                              </li>
+                              <li>
+                                <a
+                                  routerLink="/branches/23"
+                                  >Al - Niser Al - Arabi Co. Ltd.
+                                </a>
+                              </li>
+                              <li>
+                                <a
+                                  routerLink="/branches/24"
+                                  >Arab Bank – Syria</a
+                                >
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="colum-widget">
+                          <h2>Affiliates</h2>
+                          <div class="colum-listing">
+                            <ul>
+                              <li>
+                                <a
+                                  routerLink="/branches/25"
+                                  >Turkland Bank
+                                </a>
+                              </li>
+                              <li>
+                                <a
+                                  routerLink="/branches/26"
+                                  >Oman Arab Bank
+                                </a>
+                              </li>
+                              <li>
+                                <a
+                                  routerLink="/branches/27"
+                                  >Arab National Bank
+                                </a>
+                              </li>
+                              <li>
+                                <a
+                                  routerLink="/branches/28"
+                                  >Arabia Insurance Co.
+                                </a>
+                              </li>
+                              <li>
+                                <a
+                                  routerLink="/branches/29"
+                                  >Commercial Building Co. S.A.L</a
+                                >
+                              </li>
+                            </ul>
+                          </div>
+  
+                          <h2 class="mt-3">Sister Company</h2>
+                          <div class="colum-listing">
+                            <ul>
+                              <li>
+                                <a
+                                  routerLink="/branches/30"
+                                  >Arab Bank (Switzerland) Limited</a
+                                >
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="mobile-nav">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+      </div>
+    </div>
+    <div class="overlay"></div>
+  </header>
